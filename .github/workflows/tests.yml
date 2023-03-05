@@ -2,7 +2,7 @@ name: Run pytest
 
 on:
   push:
-    branches: [ main,Aswahmalik ]
+    branches: [ main]
 
 jobs:
   build:
@@ -12,6 +12,8 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
+      with:
+        ref: Aswahmalik
       
     - name: Set up Python 3.9
       uses: actions/setup-python@v2
