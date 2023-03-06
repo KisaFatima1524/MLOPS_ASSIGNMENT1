@@ -9,6 +9,7 @@ import openai
 import requests
 from bs4 import BeautifulSoup as bs
 from ebooklib import epub
+'''Disabling warning'''
 # pylint: disable=R0903
 # pylint: disable=W0246
 # pylint: disable=W0718
